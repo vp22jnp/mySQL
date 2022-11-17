@@ -21,3 +21,5 @@ update addressBook set phonenumber=8052433323 where firstname='anurag';
 delete from addressbook where lastname='jaiswal';
 select * from AddressBook;
 select * from addressbook where city='pune' or state='maharastra';
+select count(firstname) from addressbook where state='uttar pradesh';
+select count(firstname) from addressbook where state='maharastra';

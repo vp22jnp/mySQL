@@ -16,3 +16,5 @@ values('vaibhav','pathak','pimpari','pune','maharastra','222170','8052433323','v
 ('prakarsh','jaiswal','faizabad','nagar','uttar pradesh','222170','9616194312','def@gmail.com'),
 ('anurag','singh','barabanki','lucknow','uttar pradesh','222170','123456789','gh@gmail.com'),
 ('harsh','singh','kerakat','jaunpur','uttar pradesh','222170','235685972','abc@gmail.com');
+update AddressBook set phonenumber=123456 where firstname='vaibhav';
+update addressBook set phonenumber=8052433323 where firstname='anurag';

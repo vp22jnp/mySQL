@@ -20,3 +20,4 @@ update AddressBook set phonenumber=123456 where firstname='vaibhav';
 update addressBook set phonenumber=8052433323 where firstname='anurag';
 delete from addressbook where lastname='jaiswal';
 select * from AddressBook;
+select * from addressbook where city='pune' or state='maharastra';

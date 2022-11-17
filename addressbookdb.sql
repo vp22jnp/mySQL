@@ -23,3 +23,7 @@ select * from AddressBook;
 select * from addressbook where city='pune' or state='maharastra';
 select count(firstname) from addressbook where state='uttar pradesh';
 select count(firstname) from addressbook where state='maharastra';
+insert into addressbook(firstname,lastname,address,city,state,zip,phonenumber ,email)
+values('prakarsh','jaiswal','faizabad','nagar','uttar pradesh','222170','9616194312','def@gmail.com');
+select firstname,city from addressbook order by city;
+select * from addressbook order by city;

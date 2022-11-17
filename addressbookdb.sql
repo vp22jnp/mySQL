@@ -27,3 +27,8 @@ insert into addressbook(firstname,lastname,address,city,state,zip,phonenumber ,e
 values('prakarsh','jaiswal','faizabad','nagar','uttar pradesh','222170','9616194312','def@gmail.com');
 select firstname,city from addressbook order by city;
 select * from addressbook order by city;
+alter table addressbook add bookName varchar(25) not null ,add contactType varchar(25) not null;
+update addressbook set bookname ='relation', contactType='family'where lastname='pathak';
+update addressbook set bookname ='brother', contactType='friends'where lastname='singh';
+update addressbook set bookname ='brother', contactType='friends'where lastname='jaiswal';
+update addressbook set bookname ='relation', contactType='family'where lastname='dubey';

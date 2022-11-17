@@ -18,3 +18,5 @@ values('vaibhav','pathak','pimpari','pune','maharastra','222170','8052433323','v
 ('harsh','singh','kerakat','jaunpur','uttar pradesh','222170','235685972','abc@gmail.com');
 update AddressBook set phonenumber=123456 where firstname='vaibhav';
 update addressBook set phonenumber=8052433323 where firstname='anurag';
+delete from addressbook where lastname='jaiswal';
+select * from AddressBook;

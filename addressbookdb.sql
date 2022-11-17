@@ -32,3 +32,5 @@ update addressbook set bookname ='relation', contactType='family'where lastname=
 update addressbook set bookname ='brother', contactType='friends'where lastname='singh';
 update addressbook set bookname ='brother', contactType='friends'where lastname='jaiswal';
 update addressbook set bookname ='relation', contactType='family'where lastname='dubey';
+select count(firstname) from addressbook where contactType='family';
+select count(firstname) from addressbook where contactType='freinds';
